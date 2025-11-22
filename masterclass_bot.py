@@ -8,11 +8,11 @@ import os
 from flask import Flask, request
 
 # ================= CONFIGURATION =================
-BOT_TOKEN = 'YOUR_BOT_TOKEN_FROM_BOTFATHER'
+BOT_TOKEN = '8437898969:AAFI05v0qLbUteunnv7IXnlNpb1ZDUAp3y0'
 
 # LIST OF CHANNELS TO POST TO (Add as many as you want)
 # The bot must be an ADMIN in ALL of these channels
-CHANNEL_LIST = ['@YOUR_FIRST_CHANNEL', '@YOUR_SECOND_CHANNEL']
+CHANNEL_LIST = ['@nwaezedavid_channel', '@internetparrot']
 
 MASTERCLASS_LINK = "https://www.funnelhackingsecrets.com?cf_affiliate_id=4317627&affiliate_id=4317627"
 YOUTUBE_RSS = "https://www.youtube.com/feeds/videos.xml?channel_id=UCncE7a4a4I3cBIvZAhnciag"
@@ -132,3 +132,4 @@ if __name__ == '__main__':
     
     port = int(os.environ.get("PORT", 8080))
     app.run(host='0.0.0.0', port=port)
+
